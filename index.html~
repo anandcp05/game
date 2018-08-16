@@ -12,14 +12,14 @@
 </head>
 <body>
 
-<div class="jumbotron text-center">
+<div class="jumbotron text-center" style="background-color:skyblue;color:white">
   <h1>GAME</h1>
 </div>
   
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-     
+     <p>ROUND <input type="button" value="0" id="round"/></p>
     </div>  
     <div class="col-sm-4">
      <p> <input type="text" placeholder="Player Name 1" id="playername1" style="width:60%"/>
