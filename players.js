@@ -23,7 +23,7 @@ var rounds=1;
 
 
     $("#playerpoint1").change(function(){
-        console.log("hello11");
+        console.log("hello111");
 	playerpoint1=$("#playerpoint1").val();
 	playerpointtotal1=parseInt(playerpointtotal1)+parseInt(playerpoint1);
 	$("#playertotalpoint1").val(playerpointtotal1);
