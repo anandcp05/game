@@ -18,6 +18,7 @@ var playerpointtotal8=0;
 var playerpoint9;
 var playerpointtotal9=0;
 var rounds=1;
+
     $("#playerpoint1").change(function(){
         console.log("hello");
 	playerpoint1=$("#playerpoint1").val();
