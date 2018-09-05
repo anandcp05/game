@@ -19,17 +19,23 @@ var playerpoint9;
 var playerpointtotal9=0;
 var rounds=1;
 
+var playername1;
 
 
 
     $("#playerpoint1").change(function(){
         console.log("hello111");
+	playername1=$("#playername1").val();
 	playerpoint1=$("#playerpoint1").val();
 	playerpointtotal1=parseInt(playerpointtotal1)+parseInt(playerpoint1);
 	$("#playertotalpoint1").val(playerpointtotal1);
 	rounds=rounds+1;
         $("#round").val(rounds);
-        $("#playerpoint1").val("");
+        
+	$("#tblplayername1").html(playername1);
+	$("#trplayerpoint1").append('<td>'+parseInt(playerpoint1)+'</td>');
+	$("#playerpoint1").val("");
+
     });
 	
      $("#playerpoint2").change(function(){

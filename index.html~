@@ -76,7 +76,7 @@
 	<br/>
 	</p>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4" style="overflow: scroll;">
         <table class="table">
     <thead>
       <tr>
@@ -93,21 +93,44 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+      <tr id="trplayerpoint1">
+        <td id="tblplayername1"></td>
+ 
       </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
+     <tr id="trplayerpoint2">
+        <td id="tblplayername2"></td>
+ 
       </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
+	
+	<tr id="trplayerpoint3">
+        <td id="tblplayername3"></td>
+ 
       </tr>
+	<tr id="trplayerpoint4">
+        <td id="tblplayername4"></td>
+ 
+      </tr>
+	<tr id="trplayerpoint5">
+        <td id="tblplayername5"></td>
+ 
+      </tr>
+	<tr id="trplayerpoint6">
+        <td id="tblplayername6"></td>
+ 
+      </tr>
+	<tr id="trplayerpoint7">
+        <td id="tblplayername7"></td>
+ 
+      </tr>
+	<tr id="trplayerpoint8">
+        <td id="tblplayername8"></td>
+ 
+      </tr>
+	<tr id="trplayerpoint9">
+        <td id="tblplayername9"></td>
+ 
+      </tr>
+
     </tbody>
   </table>
 
